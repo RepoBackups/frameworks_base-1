@@ -37,7 +37,6 @@ public class KeyguardServiceDelegate {
 
     private static final String TAG = "KeyguardServiceDelegate";
     private static final boolean DEBUG = false;
-
     protected KeyguardServiceWrapper mKeyguardService;
     private final Context mContext;
     private final View mScrim; // shown if keyguard crashes
