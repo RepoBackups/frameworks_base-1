@@ -128,10 +128,10 @@ import android.widget.TextView;
 import com.android.internal.statusbar.StatusBarIcon;
 import com.android.keyguard.KeyguardHostView.OnDismissAction;
 import com.android.keyguard.ViewMediatorCallback;
-import com.android.internal.util.slim.ActionConfig;
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.ActionHelper;
-import com.android.internal.util.slim.DeviceUtils;
+import com.android.internal.util.insanity.ActionConfig;
+import com.android.internal.util.insanity.ActionConstants;
+import com.android.internal.util.insanity.ActionHelper;
+import com.android.internal.util.insanity.DeviceUtils;
 
 import com.android.systemui.BatteryMeterView;
 import com.android.systemui.BatteryMeterView.BatteryMeterMode;

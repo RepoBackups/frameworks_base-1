@@ -57,11 +57,11 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.android.internal.util.slim.ActionConfig;
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.ActionHelper;
-import com.android.internal.util.slim.ColorHelper;
-import com.android.internal.util.slim.DeviceUtils;
+import com.android.internal.util.insanity.ActionConfig;
+import com.android.internal.util.insanity.ActionConstants;
+import com.android.internal.util.insanity.ActionHelper;
+import com.android.internal.util.insanity.ColorHelper;
+import com.android.internal.util.insanity.DeviceUtils;
 import com.android.systemui.R;
 import com.android.systemui.statusbar.BaseStatusBar;
 import com.android.systemui.statusbar.DelegateViewHelper;

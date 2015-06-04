@@ -49,8 +49,8 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.ImageView;
 
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.Action;
+import com.android.internal.util.insanity.ActionConstants;
+import com.android.internal.util.insanity.Action;
 
 import com.android.systemui.R;
 

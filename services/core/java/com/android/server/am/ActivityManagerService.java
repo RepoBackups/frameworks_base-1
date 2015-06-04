@@ -3833,7 +3833,7 @@ public final class ActivityManagerService extends ActivityManagerNative
         // Quick identification of isolated tasks. I.e. those not launched behind.
         if (startTask.taskId == affiliateId && startTask.mPrevAffiliate == null &&
                 startTask.mNextAffiliate == null) {
-            // There is still a slim chance that there are other tasks that point to this task
+            // There is still a insanity chance that there are other tasks that point to this task
             // and that the chain is so messed up that this task no longer points to them but
             // the gain of this optimization outweighs the risk.
             startTask.inRecents = true;

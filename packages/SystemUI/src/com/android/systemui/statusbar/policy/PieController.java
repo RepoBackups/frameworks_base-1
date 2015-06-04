@@ -64,12 +64,12 @@ import android.widget.ImageView;
 
 import com.android.internal.util.gesture.EdgeGesturePosition;
 import com.android.internal.util.gesture.EdgeServiceConstants;
-import com.android.internal.util.slim.ActionConfig;
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.ActionHelper;
-import com.android.internal.util.slim.Converter;
-import com.android.internal.util.slim.ImageHelper;
-import com.android.internal.util.slim.Action;
+import com.android.internal.util.insanity.ActionConfig;
+import com.android.internal.util.insanity.ActionConstants;
+import com.android.internal.util.insanity.ActionHelper;
+import com.android.internal.util.insanity.Converter;
+import com.android.internal.util.insanity.ImageHelper;
+import com.android.internal.util.insanity.Action;
 import com.android.systemui.R;
 import com.android.systemui.statusbar.BaseStatusBar;
 import com.android.systemui.statusbar.phone.NavigationBarOverlay;

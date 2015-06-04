@@ -31,8 +31,8 @@ import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import com.android.internal.util.slim.QSConstants;
-import com.android.internal.util.slim.QSUtils;
+import com.android.internal.util.insanity.QSConstants;
+import com.android.internal.util.insanity.QSUtils;
 import com.android.systemui.R;
 import com.android.systemui.qs.QSTile;
 import com.android.systemui.qs.tiles.AdbOverNetworkTile;
