@@ -3015,26 +3015,6 @@ public final class Settings {
         public static final String SIP_ADDRESS_ONLY = "SIP_ADDRESS_ONLY";
 
         /**
-         * @deprecated Use SIP_ALWAYS or SIP_ADDRESS_ONLY instead.  Formerly used to indicate that
-         * the user should be prompted each time a call is made whether it should be placed using
-         * SIP.  The {@link com.android.providers.settings.DatabaseHelper} replaces this with
-         * SIP_ADDRESS_ONLY.
-         * @hide
-         */
-        @Deprecated
-        public static final String SIP_ASK_ME_EACH_TIME = "SIP_ASK_ME_EACH_TIME";
-
-        /**
-         * Pointer speed setting.
-         * This is an integer value in a range between -7 and +7, so there are 15 possible values.
-         *   -7 = slowest
-         *    0 = default speed
-         *   +7 = fastest
-         * @hide
-         */
-        public static final String POINTER_SPEED = "pointer_speed";
-
-        /**
          * Enable built in CAF task manager
          * @hide
          */
@@ -3212,12 +3192,6 @@ public final class Settings {
         public static final String STATUS_BAR_BATTERY_STATUS_CIRCLE_DOT_INTERVAL = "status_bar_battery_status_circle_dot_interval";
 
         /**
-         * One of the sip call options: Only if destination is a SIP address.
-         * @hide
-         */
-        public static final String SIP_ADDRESS_ONLY = "SIP_ADDRESS_ONLY";
-
-        /**
          * @deprecated Use SIP_ALWAYS or SIP_ADDRESS_ONLY instead.  Formerly used to indicate that
          * the user should be prompted each time a call is made whether it should be placed using
          * SIP.  The {@link com.android.providers.settings.DatabaseHelper} replaces this with
@@ -3236,21 +3210,6 @@ public final class Settings {
          * @hide
          */
         public static final String POINTER_SPEED = "pointer_speed";
-
-        /**
-         * Whether lock-to-app will be triggered by long-press on recents.
-         * @hide
-         */
-        public static final String LOCK_TO_APP_ENABLED = "lock_to_app_enabled";
-
-        /**
-         * I am the lolrus.
-         * <p>
-         * Nonzero values indicate that the user has a bukkit.
-         * Backward-compatible with <code>PrefGetPreference(prefAllowEasterEggs)</code>.
-         * @hide
-         */
-        public static final String EGG_MODE = "egg_mode";
 
         /**
          * Display style of the status bar battery information
@@ -3274,71 +3233,6 @@ public final class Settings {
          */
         public static final String STATUS_BAR_SHOW_BATTERY_PERCENT =
                 "status_bar_show_battery_percent";
-
-        /**
-         * Show or hide clock
-         * 0 - hide
-         * 1 - show (default)
-         * @hide
-         */
-        public static final String STATUS_BAR_CLOCK = "status_bar_clock";
-
-        /**
-         * AM/PM Style for clock options
-         * 0 - Normal AM/PM
-         * 1 - Small AM/PM
-         * 2 - No AM/PM
-         * @hide
-         */
-        public static final String STATUSBAR_CLOCK_AM_PM_STYLE = "statusbar_clock_am_pm_style";
-
-        /**
-         * Style of clock
-         * 0 - Hide Clock
-         * 1 - Right Clock
-         * 2 - Center Clock
-         * @hide
-         */
-        public static final String STATUSBAR_CLOCK_STYLE = "statusbar_clock_style";
-
-        /**
-         * Setting for clock color
-         * @hide
-         */
-        public static final String STATUSBAR_CLOCK_COLOR = "statusbar_clock_color";
-
-        /**
-         * Shows custom date before clock time
-         * 0 - No Date
-         * 1 - Small Date
-         * 2 - Normal Date
-         * @hide
-         */
-        public static final String STATUSBAR_CLOCK_DATE_DISPLAY = "statusbar_clock_date_display";
-
-        /**
-         * Sets the date string style
-         * 0 - Regular style
-         * 1 - Lowercase
-         * 2 - Uppercase
-         * @hide
-         */
-        public static final String STATUSBAR_CLOCK_DATE_STYLE = "statusbar_clock_date_style";
-
-        /**
-         * Stores the java DateFormat string for the date
-         * @hide
-         */
-        public static final String STATUSBAR_CLOCK_DATE_FORMAT = "statusbar_clock_date_format";
-
-        /**
-         * MediaScanner behavior on boot.
-         * 0 = enabled
-         * 1 = ask (notification)
-         * 2 = disabled
-         * @hide
-         */
-         public static final String MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
 
         /**
          * Whether to prevent loud volume levels when headset is first plugged in.
@@ -3721,12 +3615,6 @@ public final class Settings {
         public static final String NAVIGATION_BAR_CAN_MOVE = "navigation_bar_can_move";
 
         /**
-         * Navigation bar height when it is on protrait
-         * @hide
-         */
-        public static final String NAVIGATION_BAR_HEIGHT = "navigation_bar_height";
-
-        /**
          * Navigation bar height when it is on landscape at the bottom
          * @hide
          */
@@ -3755,13 +3643,6 @@ public final class Settings {
          * @hide
          */
         public static final String MENU_VISIBILITY = "menu_visibility";
-
-        /**
-         * Whether to vibrate when quick settings tile is pressed.
-         *
-         * @hide
-         */
-        public static final String QUICK_SETTINGS_TILES_VIBRATE = "quick_settings_vibrate";
 
         /**
          * Show when WiFi or data mobile is sending/receiving data
