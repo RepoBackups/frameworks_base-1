@@ -100,5 +100,18 @@
     <string name="pie_phone_status_no_service">No service</string>
     <string name="pie_phone_status_airplane_mode">Airplane mode on</string>
     <string name="pie_phone_status_emergency_only">Emergency calls only</string>
+    
+        <!-- QS Tiles -->
+    <string name="quick_settings_sync">Sync</string>
+    <string name="quick_settings_sync_off">Sync off</string>
+
+    <!-- Task Manager -->
+    <color name="memory_usage_item_background">#0000</color>
+    <color name="task_manager_title_text">#ffffffff</color>
+    <color name="memory_usage_text_text">#ffffffff</color>
+    <color name="qs_panel_background">#0000</color>
+    <color name="task_item_view_background">#808080</color>
+    <color name="task_item_background">#0000</color>
+    <color name="task_item_text">#ffffffff</color>
 
 </resources>
